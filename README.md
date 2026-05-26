@@ -5,7 +5,7 @@ Repositori de seguiment epidemiològic de virus respiratoris: circulació, clade
 
 descripcion breve de los graficos que hay y links
 
-* [Informe de circulación de clados a nivel geográfico](https://valldhebron-bioinformatics.github.io/vigilancia-virologica/gripe/GeographicReport_New.html)
+* **Informe de circulación de clados a nivel geográfico [link](https://valldhebron-bioinformatics.github.io/vigilancia-virologica/gripe/GeographicReport_New.html)**: en este grafico hay x desplegables, puedes gfiltrar por tipo, tal y tal..
 
 
 
