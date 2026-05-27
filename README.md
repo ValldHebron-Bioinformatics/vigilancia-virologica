@@ -16,7 +16,7 @@ A continuació es presenten els resultats obtinguts a partir de les seqüències
 
 
 
-* **Dinàmica temporal de la circulació de subtipus i clades** **[(Accés al gràfic)](https://htmlpreview.github.io/?https://github.com/ValldHebron-Bioinformatics/vigilancia-virologica/blob/main/GRIP/CladeEvolutionReport.html)**:
+* **Dinàmica temporal de la circulació de subtipus i clades** **[(Accés al gràfic)](https://valldhebron-bioinformatics.github.io/vigilancia-virologica/GRIP/CladeEvolutionReport.html)**:
 
    Aquest gràfic interactiu permet analitzar la distribució de subtipus de la grip A i dels seus clades associats a **escala setmanal**. 
    
@@ -27,7 +27,7 @@ A continuació es presenten els resultats obtinguts a partir de les seqüències
    Es tracta d'un recurs dissenyat per detectar de manera **ràpida i intuïtiva** les **tendències** i els **canvis en el patró de circulació** del virus.
 
 
-* **Informe de circulació de subtipus i clades a nivell geogràfic** **[(Accés al gràfic)](https://htmlpreview.github.io/?https://github.com/ValldHebron-Bioinformatics/vigilancia-virologica/blob/main/GRIP/GeographicReport.html)**:
+* **Informe de circulació de subtipus i clades a nivell geogràfic** **[(Accés al gràfic)](https://valldhebron-bioinformatics.github.io/vigilancia-virologica/GRIP/GeographicReport.html)**:
 
     Aquest **mapa interactiu** permet representar la **dispersió espacial** i l'**evolució temporal** dels subtipus del virus de la grip A i dels seus clades associats a tot el territori de **Catalunya**. Oferint una **traçabilitat geogràfica** intuïtiva.
 
@@ -45,7 +45,7 @@ A continuació es presenten els resultats obtinguts a partir de les seqüències
     
     El gràfic manté una alta interactivitat que permet fer **zoom de precisió** en seleccionar àrees concretes de la pantalla. A més, en passar el cursor sobre qualsevol punt, es desplega una **finestra emergent amb informació específica** que detalla la posició en la proteïna, els efectes biològics estimats i les referències associades.
 
-* **Informe de l'evolució de la freqüència dels marcadors específics**:[(Accés al gràfic)](https://htmlpreview.github.io/?https://github.com/ValldHebron-Bioinformatics/blob/main/GRIP/evolution_NA_H1N1.html)
+* **Informe de l'evolució de la freqüència dels marcadors específics**:[(Accés al gràfic)](https://valldhebron-bioinformatics.github.io/vigilancia-virologica/GRIP/evolution_NA_H1N1.html)
 
 
     Aquest mòdul interactiu permet avaluar de manera **setmanal** com apareixen i progressen determinades mutacions al llarg del temps. Visualment l'eina consta de **dos gràfics superposats**: el **gràfic superior** mostra la **freqüència setmanal**, que representa el percentatge de mostres d'aquella setmana concreta on s'ha detectat la variant, mentre que el **gràfic inferior** reflecteix la **freqüència acumulada**, indicant el nombre total de vegades que s'ha anat observant el marcador fins a arribar a una data determinada.
