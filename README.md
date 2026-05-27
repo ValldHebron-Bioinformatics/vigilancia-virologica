@@ -1,4 +1,4 @@
-# vigilancia-virologica
+# Vigilància virològica
 Repositori de seguiment epidemiològic de virus respiratoris: circulació, clades, mutacions i variants. Informes periòdics basats en dades de vigilància genòmica i epidemiològica.
 
 ## Grip A
@@ -12,7 +12,7 @@ A continuació es presenten els resultats obtinguts a partir de les seqüències
 
     Els gràfics interactius inclouen un **menú desplegable** dissenyat per **filtrar** i visualitzar la informació d'una **temporada epidemiològica** concreta. Així mateix, en passar el cursor per sobre de qualsevol porció del gràfic, es desplega una **finestra emergent** amb les xifres detallades d'aquell segment. Aquesta interactivitat resulta especialment útil per explorar les agrupacions genètiques, ja que ofereix un **desglossament intern** (`Clade breakdown`) per a aquells llinatges designats amb el sufix `-like`. 
 
-    De la mateixa manera, aquesta mateixa finestra emergent permet consultar quines variants exactes componen la categoria **`Others`**, una etiqueta que agrupa tots els clades minoritaris amb una presència inferior al **2%** en el conjunt de les mostres de cada temporada.
+    De la mateixa manera, aquesta mateixa finestra emergent permet consultar quines variants exactes componen la categoria **`Others`**, una etiqueta que agrupa tots els clades minoritaris amb una presència inferior al **1%** en el conjunt de les mostres de cada temporada.
 
 
 
@@ -31,19 +31,35 @@ A continuació es presenten els resultats obtinguts a partir de les seqüències
 
     Aquest **mapa interactiu** permet representar la **dispersió espacial** i l'**evolució temporal** dels subtipus del virus de la grip A i dels seus clades associats a tot el territori de **Catalunya**. Oferint una **traçabilitat geogràfica** intuïtiva.
 
-    Per optimitzar l'exploració de les dades, la interfície disposa de **tres menús desplegables** independents que en modifiquen el comportament visual de manera dinàmica. El primer filtre **`(SEASONS)`** permet **seleccionar una temporada epidemiològica** concreta, iniciant-se per defecte en la vista històrica completa `All Seasons`. El segon desplegable **`(GEOGRAPHIC LEVEL)`** serveix per **alternar la resolució territorial** de l'anàlisi, oferint l'opció d'agrupar les mostres a escala regional per **província `(Province)`** o bé descendint a un detall més local per **municipi `(City/Town)`**. Finalment, el tercer selector **`(CLASSIFICATION)`** permet canviar la **visualització taxonòmica** entre la distribució general dels **subtipus** o el detall dels **clades** específics que els componen. 
+    Per optimitzar l'exploració de les dades, la interfície disposa de **tres menús desplegables** independents que en modifiquen el comportament visual de manera dinàmica. El primer filtre **`(SEASONS)`** permet **seleccionar una temporada epidemiològica** concreta, iniciant-se per defecte en la vista de la temporada epidemiològica més recent `Season 2025-2026`. El segon desplegable **`(GEOGRAPHIC LEVEL)`** serveix per **alternar la resolució territorial** de l'anàlisi, oferint l'opció d'agrupar les mostres a escala regional per **província `(Province)`** o bé descendint a un detall més local per **municipi `(City/Town)`**. Finalment, el tercer selector **`(CLASSIFICATION)`** permet canviar la **visualització taxonòmica** entre la distribució general dels **subtipus** o el detall dels **clades** específics que els componen. 
 
     El mapa manté la **interactivitat** de la resta d'informes, oferint **finestres emergents** amb el **desglossament de clades** en passar el cursor sobre els punts del territori.
     
 * **Informe de les mutacions trobades en el conjunt de dades**: **[(Accés al gràfic)](https://htmlpreview.github.io/?https://github.com/ValldHebron-Bioinformatics/vigilancia-virologica/blob/main/GRIP/MutationsReport.html)**:
 
 
-
-
-
-
-
+    Aquest conjunt de **gràfics interactius** permet explorar les mutacions en els segments genòmics de la Grip A, ordenats de manera biològica. Mitjançant un **menú desplegable**, l'usuari pot filtrar la informació per **temporades epidemiològiques**, mantenint una separació estricta entre els subtipus **H1N1 i H3N2** per evitar confusions visuals. Els **marcadors moleculars amb funció coneguda** (actualment a NA i PA) es ressalten en **taronja**, mentre que a la proteïna **HA1** s'identifiquen els **epítops antigènics principals**, els quals també es veuen representats mitjançant **barres verticals de colors** al fons del gràfic.
     
+    L'**eix horitzontal (X)** indica la **posició lineal dels aminoàcids**, facilitant la localització exacta dels canvis dins de la proteïna i els seus epítops. L'**eix vertical (Y)** mostra la **freqüència de la mutació (%)**, calculada de manera dinàmica segons el **nombre total de mostres** d'aquell subtipus en la temporada seleccionada.
+    Per evitar la saturació visual de dades aïllades, s'inclou un **botó lliscant interactiu** que regula el **llindar mínim de freqüència**. Aquest filtre s'inicia automàticament en un **tall del 25%**, de manera que d'entrada només es visualitzen les mutacions presents en una quarta part o més de les seqüències, tot i que l'usuari pot modificar aquest límit lliurement.
+    
+    El gràfic manté una alta interactivitat que permet fer **zoom de precisió** en seleccionar àrees concretes de la pantalla. A més, en passar el cursor sobre qualsevol punt, es desplega una **finestra emergent amb informació específica** que detalla la posició en la proteïna, els efectes biològics estimats i les referències associades.
+
+* **Informe de l'evolució de la freqüència dels marcadors específics**:[(Accés al gràfic)](https://htmlpreview.github.io/?https://github.com/ValldHebron-Bioinformatics/blob/main/GRIP/evolution_NA_H1N1.html)
+
+
+    Aquest mòdul interactiu permet avaluar de manera **setmanal** com apareixen i progressen determinades mutacions al llarg del temps. Visualment l'eina consta de **dos gràfics superposats**: el **gràfic superior** mostra la **freqüència setmanal**, que representa el percentatge de mostres d'aquella setmana concreta on s'ha detectat la variant, mentre que el **gràfic inferior** reflecteix la **freqüència acumulada**, indicant el nombre total de vegades que s'ha anat observant el marcador fins a arribar a una data determinada.
+    
+    A través del **menú desplegable**, es pot filtrar la informació per **temporada epidemiològica**, mostrant per defecte la vista històrica global **`All time`**. El gran avantatge d'aquest filtre és que, en triar una temporada concreta, l'aplicació no només realitza un zoom automàtic en el període de temps seleccionat, sinó que **recalcula i actualitza la freqüència relativa acumulada** d'aquells mesos, la qual cosa permet analitzar immediatament quines variants han tingut un paper més dominant a cada campanya.
+    
+    Per evitar la saturació i el solapament de línies a la pantalla, el panell incorpora una **llegenda interactiva** a la dreta amb els marcadors ordenats numèricament. Aquesta llegenda s'adapta de forma dinàmica i **només mostra les mutacions actives** de la temporada que s'estigui avaluant. A més, l'usuari pot fer **doble clic** sobre un marcador concret per aïllar la seva corba i analitzar-la en solitari, o fer **clics simples addicionals** sobre altres elements per anar sumant variants a la comparativa visual de manera personalitzada.
+    
+    La combinació d'aquestes funcions garanteix un **seguiment epidemiològic d'alta precisió**, fent que l'estudi de la trajectòria de les mutacions clau sigui un procés net, intuïtiu i molt visual.
+
+
+
+
+
 
 
 
