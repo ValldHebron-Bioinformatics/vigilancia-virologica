@@ -35,7 +35,7 @@ A continuació es presenten els resultats obtinguts a partir de les seqüències
 
     El mapa manté la **interactivitat** de la resta d'informes, oferint **finestres emergents** amb el **desglossament de clades** en passar el cursor sobre els punts del territori.
     
-* **Informe de les mutacions trobades en el conjunt de dades**: **[(Accés al gràfic)](https://htmlpreview.github.io/?https://github.com/ValldHebron-Bioinformatics/vigilancia-virologica/blob/main/GRIP/MutationsReport.html)**:
+* **Informe de les mutacions trobades en el conjunt de dades**: **[(Accés al gràfic)](https://valldhebron-bioinformatics.github.io/vigilancia-virologica/GRIP/MutationsReport.html)**:
 
 
     Aquest conjunt de **gràfics interactius** permet explorar les mutacions en els segments genòmics de la Grip A, ordenats de manera biològica. Mitjançant un **menú desplegable**, l'usuari pot filtrar la informació per **temporades epidemiològiques**, mantenint una separació estricta entre els subtipus **H1N1 i H3N2** per evitar confusions visuals. Els **marcadors moleculars amb funció coneguda** (actualment a NA i PA) es ressalten en **taronja**, mentre que a la proteïna **HA1** s'identifiquen els **epítops antigènics principals**, els quals també es veuen representats mitjançant **barres verticals de colors** al fons del gràfic.
