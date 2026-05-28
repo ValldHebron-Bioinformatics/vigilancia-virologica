@@ -33,7 +33,7 @@ A continuació es presenten els resultats obtinguts a partir de les seqüències
 
     El mapa manté la **interactivitat** de la resta d'informes, oferint **finestres emergents** amb el **desglossament de clades** en passar el cursor sobre els punts del territori.
     
-* **Informe de les mutacions trobades en el conjunt de dades**: **[(Accés al gràfic)](https://valldhebron-bioinformatics.github.io/vigilancia-virologica/GRIP/MutationsReport.html)**:
+* **Informe de les mutacions trobades en el conjunt de dades** **[(Accés al gràfic)](https://valldhebron-bioinformatics.github.io/vigilancia-virologica/GRIP/MutationsReport.html)**:
 
 
     Aquest conjunt de **gràfics interactius** permet explorar les mutacions en els segments genòmics de la Grip A, ordenats de manera biològica. Mitjançant un **menú desplegable**, l'usuari pot filtrar la informació per **temporades epidemiològiques**, mantenint una separació estricta entre els subtipus **H1N1 i H3N2** per evitar confusions visuals. Els **marcadors moleculars amb funció coneguda** (actualment a NA i PA) es ressalten en **taronja**, mentre que a la proteïna **HA1** s'identifiquen els **epítops antigènics principals**, els quals també es veuen representats mitjançant **barres verticals de colors** al fons del gràfic.
@@ -43,7 +43,7 @@ A continuació es presenten els resultats obtinguts a partir de les seqüències
     
     El gràfic manté una alta interactivitat que permet fer **zoom de precisió** en seleccionar àrees concretes de la pantalla. A més, en passar el cursor sobre qualsevol punt, es desplega una **finestra emergent amb informació específica** que detalla la posició en la proteïna, els efectes biològics estimats i les referències associades.
 
-* **Informe de l'evolució de la freqüència dels marcadors específics**:[(Accés al gràfic)](https://valldhebron-bioinformatics.github.io/vigilancia-virologica/GRIP/evolution_NA_H1N1.html)
+* **Informe de l'evolució de la freqüència dels marcadors específics** (Accés als gràfics: **[HA1_H1N1](https://valldhebron-bioinformatics.github.io/vigilancia-virologica/GRIP/evolution_HA1_H1N1.html)**,  **[HA1_H3N2](https://valldhebron-bioinformatics.github.io/vigilancia-virologica/GRIP/evolution_HA1_H3N2.html)**, **[NA_H1N1](https://valldhebron-bioinformatics.github.io/vigilancia-virologica/GRIP/evolution_NA_H1N1.html)**, **[NA_H3N2](https://valldhebron-bioinformatics.github.io/vigilancia-virologica/GRIP/evolution_NA_H3N2.html)**, **[PA_H3N2](https://valldhebron-bioinformatics.github.io/vigilancia-virologica/GRIP/evolution_PA_H3N2.html)**):
 
 
     Aquest mòdul interactiu permet avaluar de manera **setmanal** com apareixen i progressen determinades mutacions al llarg del temps. Visualment l'eina consta de **dos gràfics superposats**: el **gràfic superior** mostra la **freqüència setmanal**, que representa el percentatge de mostres d'aquella setmana concreta on s'ha detectat la variant, mentre que el **gràfic inferior** reflecteix la **freqüència acumulada**, indicant el nombre total de vegades que s'ha anat observant el marcador fins a arribar a una data determinada.
