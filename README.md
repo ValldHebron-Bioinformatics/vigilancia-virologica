@@ -1,5 +1,6 @@
 # Vigilància virològica del virus de la grip A
 
+<div style="text-align: justify;">
 Per a la vigilància epidemiològica de la grip A es proposa un conjunt d'**eines visuals i gràfics interactius** dissenyats per oferir **perspectives complementàries** que faciliten la **interpretació de la dinàmica evolutiva del virus**.
 
 A continuació es presenten els resultats obtinguts a partir de les seqüències de grip humana publicades per l'Hospital Universitari Vall d'Hebron a la plataforma GISAID. Aquestes dades comprenen les temporades epidemiològiques des de la setmana 40 de l'any 2020 fins al 20 de maig de 2026.
@@ -14,6 +15,7 @@ A continuació es presenten els resultats obtinguts a partir de les seqüències
 
 
 
+
 * **Dinàmica temporal de la circulació de subtipus i clades** **[(Accés al gràfic)](https://valldhebron-bioinformatics.github.io/vigilancia-virologica/GRIP/CladeEvolutionReport.html)**:
 
    Aquest gràfic interactiu permet analitzar la distribució de subtipus de la grip A i dels seus clades associats a **escala setmanal**. 
@@ -23,6 +25,7 @@ A continuació es presenten els resultats obtinguts a partir de les seqüències
    L'estructura de barres acumulades representa de forma visual la **proporció i dominància** de cada variant al llarg del temps. En passar el cursor per sobre de qualsevol dels segments de la barra, es desplega una **finestra emergent** que detalla el nom del **subtipus o clade**, la **setmana epidemiològica** exacta, el nombre absolut d'**ocurrències registrades** en aquell interval i el **percentatge** que representen respecte al total de mostres d'aquella setmana. 
    
    Es tracta d'un recurs dissenyat per detectar de manera **ràpida i intuïtiva** les **tendències** i els **canvis en el patró de circulació** del virus.
+
 
 
 * **Informe de circulació de subtipus i clades a nivell geogràfic** **[(Accés al gràfic)](https://valldhebron-bioinformatics.github.io/vigilancia-virologica/GRIP/GeographicReport.html)**:
@@ -37,7 +40,7 @@ A continuació es presenten els resultats obtinguts a partir de les seqüències
 
 
     Aquest conjunt de **gràfics interactius** permet explorar les mutacions en els segments genòmics de la Grip A, ordenats de manera biològica. Mitjançant un **menú desplegable**, l'usuari pot filtrar la informació per **temporades epidemiològiques**, mantenint una separació estricta entre els subtipus **H1N1 i H3N2** per evitar confusions visuals. Els **marcadors moleculars amb funció coneguda** (actualment a NA i PA) es ressalten en **taronja**, mentre que a la proteïna **HA1** s'identifiquen els **epítops antigènics principals**, els quals també es veuen representats mitjançant **barres verticals de colors** al fons del gràfic.
-    
+
     L'**eix horitzontal (X)** indica la **posició lineal dels aminoàcids**, facilitant la localització exacta dels canvis dins de la proteïna i els seus epítops. L'**eix vertical (Y)** mostra la **freqüència de la mutació (%)**, calculada de manera dinàmica segons el **nombre total de mostres** d'aquell subtipus en la temporada seleccionada.
     Per evitar la saturació visual de dades aïllades, s'inclou un **botó lliscant interactiu** que regula el **llindar mínim de freqüència**. Aquest filtre s'inicia automàticament en un **tall del 25%**, de manera que d'entrada només es visualitzen les mutacions presents en una quarta part o més de les seqüències, tot i que l'usuari pot modificar aquest límit lliurement.
     
@@ -47,11 +50,11 @@ A continuació es presenten els resultats obtinguts a partir de les seqüències
 
 
     Aquest mòdul interactiu permet avaluar de manera **setmanal** com apareixen i progressen determinades mutacions al llarg del temps. Visualment l'eina consta de **dos gràfics superposats**: el **gràfic superior** mostra la **freqüència setmanal**, que representa el percentatge de mostres d'aquella setmana concreta on s'ha detectat la variant, mentre que el **gràfic inferior** reflecteix la **freqüència acumulada**, indicant el nombre total de vegades que s'ha anat observant el marcador fins a arribar a una data determinada.
-    
+
     A través del **menú desplegable**, es pot filtrar la informació per **temporada epidemiològica**, mostrant per defecte la vista històrica global **`All time`**. El gran avantatge d'aquest filtre és que, en triar una temporada concreta, l'aplicació no només realitza un zoom automàtic en el període de temps seleccionat, sinó que **recalcula i actualitza la freqüència relativa acumulada** d'aquells mesos, la qual cosa permet analitzar immediatament quines variants han tingut un paper més dominant a cada campanya.
-    
+
     Per evitar la saturació i el solapament de línies a la pantalla, el panell incorpora una **llegenda interactiva** a la dreta amb els marcadors ordenats numèricament. Aquesta llegenda s'adapta de forma dinàmica i **només mostra les mutacions actives** de la temporada que s'estigui avaluant. A més, l'usuari pot fer **doble clic** sobre un marcador concret per aïllar la seva corba i analitzar-la en solitari, o fer **clics simples addicionals** sobre altres elements per anar sumant variants a la comparativa visual de manera personalitzada.
-    
+
     La combinació d'aquestes funcions garanteix un **seguiment epidemiològic d'alta precisió**, fent que l'estudi de la trajectòria de les mutacions clau sigui un procés net, intuïtiu i molt visual.
 
 
@@ -59,3 +62,4 @@ A continuació es presenten els resultats obtinguts a partir de les seqüències
 La metodologia desenvolupada per a la vigilància genòmica de la grip A ha estat dissenyada amb una **arquitectura modular i escalable** que permet la seva adaptació a **altres virus respiratoris de rellevància epidemiològica**. 
 
 La línia de treball actual es dirigeix a l'escalabilitat d'aquesta plataforma per incloure el **Virus Respiratori Sincitial (VRS)** i el **SARS-CoV-2**. L'objectiu d'aquesta ampliació és aplicar els mateixos estàndards d'anàlisi, des de la caracterització de llinatges fins a la localització geogràfica, per tal de generar un **marc d'anàlisi unificat**.
+</div>
