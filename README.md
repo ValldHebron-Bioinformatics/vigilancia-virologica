@@ -1,9 +1,7 @@
-# Vigilància virològica
-Repositori de seguiment epidemiològic de virus respiratoris: circulació, clades, mutacions i variants. Informes periòdics basats en dades de vigilància genòmica i epidemiològica.
+# Vigilància virològica del virus de la grip A
 
-## Grip A
+Per a la vigilància epidemiològica de la grip A es proposa un conjunt d'**eines visuals i gràfics interactius** dissenyats per oferir **perspectives complementàries** que faciliten la **interpretació de la dinàmica evolutiva del virus**.
 
-Per a la vigilància epidemiològica de la grip A es proposen una sèrie de gràfics que aporten, cadascun d'ells, una perspectiva diferent i complementària de les dades. 
 A continuació es presenten els resultats obtinguts a partir de les seqüències de grip humana publicades per l'Hospital Universitari Vall d'Hebron a la plataforma GISAID. Aquestes dades comprenen les temporades epidemiològiques des de la setmana 40 de l'any 2020 fins al 20 de maig de 2026.
 
 * **Informe de distribució de subtipus i clades per temporada epidemiològica** **[(Accés al gràfic)](https://htmlpreview.github.io/?https://github.com/ValldHebron-Bioinformatics/vigilancia-virologica/blob/main/GRIP/CladeGraphicReport.html)**:
@@ -57,13 +55,7 @@ A continuació es presenten els resultats obtinguts a partir de les seqüències
     La combinació d'aquestes funcions garanteix un **seguiment epidemiològic d'alta precisió**, fent que l'estudi de la trajectòria de les mutacions clau sigui un procés net, intuïtiu i molt visual.
 
 
+## Properes passes
+La metodologia desenvolupada per a la vigilància genòmica de la grip A ha estat dissenyada amb una **arquitectura modular i escalable** que permet la seva adaptació a **altres virus respiratoris de rellevància epidemiològica**. 
 
-
-
-
-
-
-
-## Next steps
-- VRS
-- ...
+La línia de treball actual es dirigeix a l'escalabilitat d'aquesta plataforma per incloure el **Virus Respiratori Sincitial (VRS)** i el **SARS-CoV-2**. L'objectiu d'aquesta ampliació és aplicar els mateixos estàndards d'anàlisi, des de la caracterització de llinatges fins a la localització geogràfica, per tal de generar un **marc d'anàlisi unificat**.
