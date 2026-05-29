@@ -6,7 +6,7 @@ A continuació es presenten els resultats obtinguts a partir de les seqüències
 
 * **Informe de distribució de subtipus i clades per temporada epidemiològica** **[(Accés al gràfic)](https://valldhebron-bioinformatics.github.io/vigilancia-virologica/GRIP/CladeGraphicReport.html)**:
 
-    Aquest apartat mostra, mitjançant diagrames de sectors interactius, quina ha estat la **proporció dels diferents subtipus** del virus de la grip A humana en circulació. A més, aprofundeix en la **distribució específica per clades** dins de cadascun dels subtipus detectats, que actualment corresponen a l'A(H1N1pdm09) i l'A(H3N2).
+    Aquest apartat mostra, mitjançant diagrames de sectors interactius, quina ha estat la **proporció dels diferents subtipus** del virus de la grip A humana en circulació. A més, aprofundeix en la **distribució específica per clades** dins de cadascun dels subtipus detectats, que actualment corresponen a l'A(H1N1)pdm09 i l'A(H3N2).
 
     Els gràfics interactius inclouen un **menú desplegable** dissenyat per **filtrar** i visualitzar la informació d'una **temporada epidemiològica** concreta. Així mateix, en passar el cursor per sobre de qualsevol porció del gràfic, es desplega una **finestra emergent** amb les xifres detallades d'aquell segment. Aquesta interactivitat resulta especialment útil per explorar les agrupacions genètiques designades amb el sufix `-like`. 
 
